@@ -1,0 +1,178 @@
+:root {
+  --green: #E9F9DC;
+  --red: #FDD6CE;
+  --yellow: #FCEDCA;
+  --blue: #DCEDF9;
+  --black: #262D39;
+}
+
+.all {
+  background-color: #E4EBE3;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #E4EBE3;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 50px;
+  align-self: center;
+  min-height: 150px;
+  width: 100%;
+
+}
+
+.main-page {
+  background-color: white;
+  min-height: fit-content;
+  flex: 1;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  box-shadow: 0px -7px 15px #00000050;
+  padding: 60px;
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: fit-content;
+}
+
+
+.Pille {
+  background-color: var(--green);
+  margin: 15px;
+  font-size: 20px;
+  padding: 20px;
+  border: 2px solid var(--black);
+  border-radius: 20px;
+  align-items: center;
+
+}
+
+.PilleGenommen {
+  background-color: #a6c28f;
+  margin: 15px;
+  font-size: 20px;
+  padding: 20px;
+  border: 2px solid var(--black);
+  border-radius: 20px;
+  align-items: center;
+}
+
+.mood-text {
+  background-color: var(--blue);
+}
+
+.hurt-text {
+  background-color: var(--yellow);
+  padding-bottom: 5px;
+}
+
+.hurt-text2 {
+  background-color: var(--yellow);
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.Pille:hover {
+  background-color: #a6c28f;
+  transition: 0.5s;
+}
+
+.moodslidernumber {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.heartNo {
+  background-color: var(--red);
+  margin: 15px;
+  font-size: 100px;
+  color: #e6a598;
+  border: none;
+  border-radius: 20px;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.heartNo:hover {
+  background-color: var(--red);
+  margin: 15px;
+  font-size: 100px;
+  color: #db8877;
+  border: none;
+  border-radius: 20px;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.heartYes {
+  background-color: var(--red);
+  margin: 15px;
+  font-size: 100px;
+  color: #ea6c53;
+  border: none;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.check {
+  border: 2px solid var(--black);
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  background-color: var(--green);
+  color: var(--black);
+  font-size: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.check:hover{
+  background-color: #a1c79b;
+  transition: 0.5s;
+}
+.check:active{
+  background-color: #80af78;
+  transition: 0.5s;
+}
+
+.visible {
+  border: 2px solid var(--black);
+  position: fixed;
+  width: fit-content;
+  margin-right: 100px;
+  align-self: center;
+  background-color: lightgrey;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.notVisible{
+  display: none;
+}
+
+.closeAlert{
+  background-color: transparent;
+  border: 2px solid var(--black);
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}

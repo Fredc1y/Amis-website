@@ -1,0 +1,67 @@
+:root{
+    --green : #E9F9DC;
+    --red: #FDD6CE;
+    --yellow: #FCEDCA;
+    --blue: #DCEDF9;
+    --black: #262D39;
+  } 
+
+  *{
+background-color: var(--green);
+  }
+.mainPage{
+    background-color: var(--green);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LoginField{
+    width: fit-content;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border-width: 20px;
+    border: 3px solid var(--black);
+}
+
+.passwordField{
+    background-color: transparent;
+    border: 3px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+    color: var(--black);
+    font-size: 15px;
+    outline: none;
+    margin-top: 5px;
+}
+.passwordField:focus{
+    border: 3px solid var(--black);
+}
+
+.passwordText{
+    font-size: 20px;
+    background-color: transparent;
+    padding: 5px;
+    text-align: center;
+}
+
+.passwordButton{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 5px;
+    min-width: 100%;
+    margin-top: 10px;
+    border: 2px solid var(--black);
+    border-radius: 20px;
+
+}
+.passwordButton:hover{
+    background-color: var(--black);
+    color: white;
+    transition: 0.5s;
+}
+
+.buttonDiv{
+    background-color: transparent;
+}

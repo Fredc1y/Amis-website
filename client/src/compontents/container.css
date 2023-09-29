@@ -1,0 +1,72 @@
+:root{
+    --green : #E9F9DC;
+    --red: #FDD6CE;
+    --yellow: #FCEDCA;
+    --blue: #DCEDF9;
+    --black: #262D39;
+  } 
+
+  .howFeel{
+    background-color: var(--green);
+    border-radius: 20px;
+    margin: 30px;
+    align-items: center;
+    width: fit-content;
+    padding: 40px;
+  }
+
+  .slidecontainer2{
+    margin-top: 15px;
+    background-color: var(--blue);
+  }
+  
+  .slidecontainer{
+    background-color: var(--blue);
+    border-radius: 20px;
+    margin: 30px;
+    align-items: center;
+    width: fit-content;
+    padding: 40px;
+    text-align: center;
+    color: var(--black);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+  .sex{
+    background-color: var(--red);
+    border-radius: 20px;
+    margin: 30px;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .schmerzencontainer{
+    background-color: var(--yellow);
+    border-radius: 20px;
+    margin: 15px;
+    align-items: center;
+    width: fit-content;
+    padding: 40px;
+    text-align: center;
+    color: var(--black);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .max-container{
+    background-color: var(--yellow);
+    width: 100%;
+  }
+  .average-container{
+    background-color: var(--yellow);
+    width: 100%;
+   
+  }
